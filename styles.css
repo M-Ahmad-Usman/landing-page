@@ -99,3 +99,44 @@ ul a {
     width: 100%;
     height: 50%;
 }
+
+.info-section h1 {
+    /* border: 2px solid black; */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+    text-align: center;
+}
+
+.boxes {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.boxes .box {
+    /* border: 2px solid black; */
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box .square {
+    border: 3px solid #3882F6;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.box .caption {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.square, .caption {
+    width: 200px;
+}
