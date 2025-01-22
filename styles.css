@@ -208,3 +208,12 @@ blockquote {
     padding: 5px 10px;
     flex: 0 1 auto;
 }
+
+footer {
+    min-height: 10vh;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
