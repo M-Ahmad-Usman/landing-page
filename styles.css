@@ -176,3 +176,35 @@ blockquote {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.subscribe-section {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.subscribe {
+    background-color: #3882F6;
+    border-radius: 10px;
+    min-width: 60%;
+    padding: 30px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subscribe-text {
+    flex: 1 1 auto;
+}
+
+.sign-up.subscribe-sign-up{
+    border: 2px solid white;
+    padding: 5px 10px;
+    flex: 0 1 auto;
+}
